@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/benrees/static/css/main.f8fc5de9.css",
+    "main.js": "/benrees/static/js/main.112ddce6.js",
+    "static/media/self.png": "/benrees/static/media/self.02c9dc6be90da440b0a4.png",
+    "static/media/mock1.png": "/benrees/static/media/mock1.65c8c7363f0693d9f2bf.png",
+    "static/media/mock3.png": "/benrees/static/media/mock3.65c8c7363f0693d9f2bf.png",
+    "static/media/mock5.png": "/benrees/static/media/mock5.65c8c7363f0693d9f2bf.png",
+    "static/media/mock4.png": "/benrees/static/media/mock4.7d759fa188f52d4a3d77.png",
+    "static/media/mock2.png": "/benrees/static/media/mock2.4993b6800b39fb2f8467.png",
+    "index.html": "/benrees/index.html",
+    "main.f8fc5de9.css.map": "/benrees/static/css/main.f8fc5de9.css.map",
+    "main.112ddce6.js.map": "/benrees/static/js/main.112ddce6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8fc5de9.css",
+    "static/js/main.112ddce6.js"
+  ]
+}
