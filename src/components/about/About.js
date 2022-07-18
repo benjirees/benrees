@@ -50,10 +50,25 @@ export default function About() {
         </>;
     }
 
+    function qualificationsText() {
+        return <>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
+                qualifications</p>
+            <p><span style={{color: info.baseColor}}>qualifications <span
+                className={Style.green}>(main)</span> $</span> ls</p>
+            <ul>
+                {info.qualifications.map(qualification => (
+                    <li><Box component={'span'} mr={'1rem'}></Box>{qualification.label}</li>
+                ))}
+            </ul>
+        </>
+    }
+
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
             <Terminal text={aboutMeText()}/>
             <Terminal text={skillsText()}/>
+            <Terminal text={qualificationsText()}/>
             <Terminal text={miscText()}/>
         </Box>
     )
